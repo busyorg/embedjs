@@ -1,0 +1,11 @@
+{
+  "name": "steemembed",
+  "version": "1.0.5",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+   },
+  "author": "AdCpm <fabien@adcpm.com> (https://github.com/adcpm)",
+  "license": "ISC"
+}
