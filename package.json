@@ -1,11 +1,14 @@
 {
   "name": "steemembed",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
-   },
+  },
   "author": "AdCpm <fabien@adcpm.com> (https://github.com/adcpm)",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "url-extractor": "^2.0.2"
+  }
 }
