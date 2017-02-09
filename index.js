@@ -1,1 +1,1 @@
-module.exports = require('./lib/steemembed');
+module.exports = require('./lib/embedjs');

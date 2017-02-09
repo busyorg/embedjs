@@ -1,27 +1,25 @@
 {
-  "name": "steemembed",
-  "version": "1.0.17",
+  "name": "embedjs",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adcpm/steemembed.git"
+    "url": "git+https://github.com/adcpm/embedjs.git"
   },
   "keywords": [
-    "steem",
-    "steemit",
-    "blockchain",
-    "steemjs"
+    "embed",
+    "embedjs"
   ],
   "author": "AdCpm <fabien@adcpm.com> (https://github.com/adcpm)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/adcpm/steemembed/issues"
+    "url": "https://github.com/adcpm/embedjs/issues"
   },
-  "homepage": "https://github.com/adcpm/steemembed#readme",
+  "homepage": "https://github.com/adcpm/embedjs#readme",
   "dependencies": {
     "url-extractor": "^2.0.2"
   },
