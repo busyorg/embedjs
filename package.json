@@ -1,7 +1,7 @@
 {
   "name": "embedjs",
-  "version": "0.0.2",
-  "description": "",
+  "version": "0.0.3",
+  "description": "Extract embed information for all the media links in your texts",
   "main": "index.js",
   "scripts": {
     "test": "node test/index.js"
@@ -12,7 +12,12 @@
   },
   "keywords": [
     "embed",
-    "embedjs"
+    "embedjs",
+    "youtube",
+    "vimeo",
+    "periscope",
+    "twitch",
+    "soundcloud"
   ],
   "author": "AdCpm <fabien@adcpm.com> (https://github.com/adcpm)",
   "license": "MIT",
@@ -24,6 +29,7 @@
     "url-extractor": "^2.0.2"
   },
   "contributors": [
-    "Fabien (https://github.com/adcpm)"
+    "Fabien (https://github.com/adcpm)",
+    "Pooria (https://github.com/p0o)"
   ]
 }
