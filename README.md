@@ -1,6 +1,6 @@
 # Embed.js
 
-With EmbedJS you can simply extract all the media links in your content and get the embed information of them in a JSON format.
+With EmbedJS you can simply extract all the media links in your content and get the embed information of them in a JavaScript collection format. You can use these informations to append video embeds however you need in your app.
 
 
 Simple usage:
@@ -16,7 +16,7 @@ console.log(embeds);
 
 Which you would get a result like this:
 
-```
+```javascript
 [ { type: 'video',
     url: 'https://www.twitch.tv/johnnydarko420',
     provider_name: 'Twitch',
@@ -36,7 +36,7 @@ Which you would get a result like this:
 ```
 
 ### Options
-In `embedjs.getAll` method you can pass a second parameter as options. This parameter should be and object similar to blow.
+In `embedjs.getAll` method you can pass a second parameter as options. This parameter should be an object similar to below.
 
 ```
 { 
