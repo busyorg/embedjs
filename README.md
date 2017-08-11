@@ -30,7 +30,7 @@ Which you would get a result like this:
   { type: 'video',
     url: 'https://www.youtube.com/watch?v=waiCd_CVxdc',
     provider_name: 'YouTube',
-    thumbnail: 'https://img.youtube.com/vi/waiCd_CVxdc/sddefault.jpg',
+    thumbnail: 'https://i.ytimg.com/vi/waiCd_CVxdc/hqdefault.jpg',
     id: 'waiCd_CVxdc',
     embed: '<iframe width="100" height="120" src="//www.youtube.com/embed/waiCd_CVxdc?autoplay=1" frameborder="0" scrolling="no" allowfullscreen></iframe>' } ]
 ```
