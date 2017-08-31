@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/adcpm/embedjs#readme",
   "dependencies": {
-    "url-extractor": "^2.0.2"
+    "get-urls": "^7.0.0"
   },
   "contributors": [
     "Fabien (https://github.com/adcpm)",
