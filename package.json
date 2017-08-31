@@ -1,6 +1,6 @@
 {
   "name": "embedjs",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Extract embed information for all the media links in your texts",
   "main": "index.js",
   "scripts": {
