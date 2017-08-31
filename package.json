@@ -1,6 +1,6 @@
 {
   "name": "embedjs",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Extract embed information for all the media links in your texts",
   "main": "index.js",
   "scripts": {
@@ -25,11 +25,14 @@
     "url": "https://github.com/adcpm/embedjs/issues"
   },
   "homepage": "https://github.com/adcpm/embedjs#readme",
-  "dependencies": {
-    "url-extractor": "^2.0.2"
-  },
   "contributors": [
     "Fabien (https://github.com/adcpm)",
     "Pooria (https://github.com/p0o)"
-  ]
+  ],
+  "dependencies": {
+    "get-urls": "^7.0.0"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2"
+  }
 }
