@@ -25,11 +25,14 @@
     "url": "https://github.com/adcpm/embedjs/issues"
   },
   "homepage": "https://github.com/adcpm/embedjs#readme",
-  "dependencies": {
-    "get-urls": "^7.0.0"
-  },
   "contributors": [
     "Fabien (https://github.com/adcpm)",
     "Pooria (https://github.com/p0o)"
-  ]
+  ],
+  "dependencies": {
+    "get-urls": "^7.0.0"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2"
+  }
 }
