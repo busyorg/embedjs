@@ -30,7 +30,7 @@
     "Pooria (https://github.com/p0o)"
   ],
   "dependencies": {
-    "get-urls": "^5.0.1"
+    "get-urls": "^7.0.0"
   },
   "devDependencies": {
     "expect": "^1.20.2"
