@@ -1,6 +1,6 @@
 {
   "name": "embedjs",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Extract embed information for all the media links in your texts",
   "main": "index.js",
   "scripts": {
@@ -30,7 +30,7 @@
     "Pooria (https://github.com/p0o)"
   ],
   "dependencies": {
-    "get-urls": "^7.0.0"
+    "get-urls": "^5.0.1"
   },
   "devDependencies": {
     "expect": "^1.20.2"
