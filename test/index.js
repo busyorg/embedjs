@@ -18,7 +18,7 @@ expect(embeds).toEqual(
     provider_name: 'YouTube',
     thumbnail: 'https://i.ytimg.com/vi/DAYNwC-aMgQ/hqdefault.jpg',
     id: 'DAYNwC-aMgQ',
-    embed: '<iframe width="100%" height="400" src="//www.youtube.com/embed/DAYNwC-aMgQ?autoplay=1&start=2m8s" frameborder="0" scrolling="no" allowfullscreen></iframe>'
+    embed: '<iframe width="100%" height="400" src="//www.youtube.com/embed/DAYNwC-aMgQ?autoplay=1&start=128" frameborder="0" scrolling="no" allowfullscreen></iframe>'
   },
   {
     type: 'music',
