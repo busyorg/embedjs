@@ -1,7 +1,7 @@
 var expect = require('expect');
 var embedjs = require('./../lib/embedjs');
 
-var text = 'Lorem ipsum dolor sit amet https://www.twitch.tv/johnnydarko420, consectetur adipiscing elit, https://soundcloud.com/liluzivert/do-what-i-want-produced-by-maaly-raw-don-cannon sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in https://www.youtube.com/watch?v=waiCd_CVxdc reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, https://www.google.fr/?gws_rd=ssl sunt in culpa qui officia deserunt mollit anim id est laborum.';
+var text = 'Lorem ipsum dolor sit amet https://www.twitch.tv/johnnydarko420, https://youtu.be/DAYNwC-aMgQ?t=2m8s consectetur adipiscing elit, https://soundcloud.com/liluzivert/do-what-i-want-produced-by-maaly-raw-don-cannon sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in https://www.youtube.com/watch?v=waiCd_CVxdc reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, https://www.google.fr/?gws_rd=ssl sunt in culpa qui officia deserunt mollit anim id est laborum.';
 var embeds = embedjs.getAll(text);
 
 expect(embeds).toEqual(
@@ -11,6 +11,14 @@ expect(embeds).toEqual(
     provider_name: 'Twitch',
     id: 'johnnydarko420,',
     embed: '<iframe width="100%" height="400" src="//player.twitch.tv/?channel=johnnydarko420,&autoplay=false" frameborder="0" scrolling="no" allowfullscreen></iframe>'
+  },
+  {
+    type: 'video',
+    url: 'https://youtu.be/DAYNwC-aMgQ?t=2m8s',
+    provider_name: 'YouTube',
+    thumbnail: 'https://i.ytimg.com/vi/DAYNwC-aMgQ/hqdefault.jpg',
+    id: 'DAYNwC-aMgQ',
+    embed: '<iframe width="100%" height="400" src="//www.youtube.com/embed/DAYNwC-aMgQ?autoplay=1&t=2m8s" frameborder="0" scrolling="no" allowfullscreen></iframe>'
   },
   {
     type: 'music',
