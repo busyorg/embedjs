@@ -16,7 +16,7 @@ expect(embeds).toEqual(
     type: 'video',
     url: 'https://youtu.be/DAYNwC-aMgQ?t=2m8s',
     provider_name: 'YouTube',
-    thumbnail: 'https://i.ytimg.com/vi/DAYNwC-aMgQ/hqdefault.jpg',
+    thumbnail: 'https://img.youtube.com/vi/DAYNwC-aMgQ/mqdefault.jpg',
     id: 'DAYNwC-aMgQ',
     embed: '<iframe width="100%" height="400" src="//www.youtube.com/embed/DAYNwC-aMgQ?autoplay=1&start=128" frameborder="0" scrolling="no" allowfullscreen></iframe>'
   },
@@ -31,7 +31,7 @@ expect(embeds).toEqual(
     type: 'video',
     url: 'https://youtube.com/watch?v=waiCd_CVxdc',
     provider_name: 'YouTube',
-    thumbnail: 'https://i.ytimg.com/vi/waiCd_CVxdc/hqdefault.jpg',
+    thumbnail: 'https://img.youtube.com/vi/waiCd_CVxdc/mqdefault.jpg',
     id: 'waiCd_CVxdc',
     embed: '<iframe width="100%" height="400" src="//www.youtube.com/embed/waiCd_CVxdc?autoplay=1" frameborder="0" scrolling="no" allowfullscreen></iframe>'
   }]
